@@ -1,0 +1,162 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    font-size: 1.8rem;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Home Section */
+.home {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.home .sample-article {
+    background-color: #ececec;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.home .btn {
+    display: inline-block;
+    background-color: #ff6200;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.home .btn:hover {
+    background-color: #e55100;
+}
+
+/* Blog Section */
+.blog {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.blog .articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog article {
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.blog article img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog .affiliate-link a {
+    color: #ff6200;
+    text-decoration: none;
+}
+
+.blog .affiliate-link a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact .social-media {
+    margin-top: 20px;
+}
+
+.contact .social-media a {
+    color: #ff6200;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
